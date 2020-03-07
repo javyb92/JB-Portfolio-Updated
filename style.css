@@ -1,0 +1,41 @@
+body{
+
+    background-color: #93999F;
+    color: gainsboro;
+
+}
+
+#sidenav{
+    background-color: #303E47;
+    height: 100vmin;
+    width: 30vmin;
+    border-right: 10px solid #CFB53B;
+    padding: 15px;
+    /* display:none; */
+
+}
+
+#topbar{
+    background-color: #303E47;
+    border-bottom: 5px solid #CFB53B;
+    display:none;
+}
+
+a{
+    margin-top: 20px;
+}
+
+a.nav-link{
+    color: #CFB53B;}
+
+a.nav-link.active{
+color: #d40000;}
+
+article{
+    height: 100vmin;
+}
+
+#aboutme{
+    background-color: #303E47;
+    padding: 50px;
+}
