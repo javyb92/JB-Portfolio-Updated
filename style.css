@@ -1,6 +1,6 @@
 body{
 
-    background-color: #93999F;
+    background-color: #556168;
     color: gainsboro;
 
 }
@@ -30,6 +30,10 @@ a.nav-link{
 a.nav-link.active{
 color: #d40000;
 }
+
+a.nav-link:hover{
+    color: #d40000;
+    }
 
 article{
     height: 100vmin;
