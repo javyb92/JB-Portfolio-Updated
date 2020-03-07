@@ -11,6 +11,7 @@ body{
     width: 30vmin;
     border-right: 10px solid #CFB53B;
     padding: 15px;
+    /* position: fixed; */
     /* display:none; */
 
 }
