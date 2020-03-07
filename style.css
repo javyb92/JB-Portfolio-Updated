@@ -7,10 +7,10 @@ body{
 
 #sidenav{
     background-color: #303E47;
-    height: 85vmax;
+    height: 100vh;
     border-right: 10px solid #CFB53B;
     padding: 5px;
-    /* position: fixed; */
+    position: fixed;
     /* display:none; */
 
 }
@@ -42,6 +42,10 @@ article{
 #aboutme{
     background-color: #303E47;
     padding: 50px;
+}
+
+#card-holder{
+    padding: 25px 25px 25px 50px;
 }
 
 .card{
