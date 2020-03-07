@@ -7,10 +7,9 @@ body{
 
 #sidenav{
     background-color: #303E47;
-    height: 70vmax;
-    width: 30vmin;
+    height: 85vmax;
     border-right: 10px solid #CFB53B;
-    padding: 15px;
+    padding: 5px;
     /* position: fixed; */
     /* display:none; */
 
@@ -22,12 +21,11 @@ body{
     display:none;
 }
 
-a{
-    margin-top: 20px;
-}
-
 a.nav-link{
-    color: #CFB53B;}
+    color: #CFB53B;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 a.nav-link.active{
 color: #d40000;
@@ -41,3 +39,14 @@ article{
     background-color: #303E47;
     padding: 50px;
 }
+
+.card{
+    background-color: #303E47;
+    border: 1px solid #303E47;
+}
+
+.btn{
+    background-color: #CFB53B;
+    border: 2px solid #CFB53B;
+}
+
