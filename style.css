@@ -11,7 +11,6 @@ body{
     border-right: 10px solid #CFB53B;
     padding: 5px;
     position: fixed;
-    display:none;
 
 }
 
@@ -19,7 +18,7 @@ body{
     background-color: #303E47;
     border-bottom: 5px solid #CFB53B;
     
-    /* display:none; */
+    display:none;
 }
 
 a.nav-link{
@@ -42,7 +41,8 @@ article{
 
 #aboutme{
     background-color: #303E47;
-    padding: 50px;
+    padding: 20px;
+    margin: 50px;
 }
 
 #card-holder{
@@ -56,7 +56,6 @@ article{
 
 .btn{
     background-color: #CFB53B;
-    border: 2px solid #CFB53B;
     margin: 10px;
 }
 
@@ -64,3 +63,55 @@ article{
     background-color: #CFB53B;
 
 }
+
+
+
+ @media (max-width: 1186.98px){ 
+
+    #topbar{
+
+        display: flex;
+    }
+
+    #sidenav{
+        
+        display: none;
+    
+    }
+
+ }
+
+ @media (min-width: 1186.98px) { 
+
+    #topbar{
+
+        display: none;
+    }
+
+    #sidenav{
+        
+        display: flex;
+    
+    }
+
+ }
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #303E47;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #CFB53B;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d40000;
+  }
