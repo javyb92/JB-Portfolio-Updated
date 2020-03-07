@@ -2,7 +2,13 @@ body{
 
     background-color: #556168;
     color: gainsboro;
+    font-family: 'Roboto', sans-serif;
 
+
+}
+
+h5{
+    font-family: 'Tomorrow', sans-serif;
 }
 
 #sidenav{
@@ -19,6 +25,11 @@ body{
     border-bottom: 5px solid #CFB53B;
     
     display:none;
+}
+
+a{
+    font-family: 'Tomorrow', sans-serif;
+
 }
 
 a.nav-link{
@@ -57,6 +68,7 @@ article{
 .btn{
     background-color: #CFB53B;
     margin: 10px;
+    font-family:'Tomorrow', sans-serif;
 }
 
 .navbar-toggler-icon{
