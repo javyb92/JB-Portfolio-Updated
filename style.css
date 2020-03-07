@@ -7,7 +7,7 @@ body{
 
 #sidenav{
     background-color: #303E47;
-    height: 100vmin;
+    height: 70vmax;
     width: 30vmin;
     border-right: 10px solid #CFB53B;
     padding: 15px;
@@ -30,7 +30,8 @@ a.nav-link{
     color: #CFB53B;}
 
 a.nav-link.active{
-color: #d40000;}
+color: #d40000;
+}
 
 article{
     height: 100vmin;
