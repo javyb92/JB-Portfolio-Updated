@@ -11,14 +11,15 @@ body{
     border-right: 10px solid #CFB53B;
     padding: 5px;
     position: fixed;
-    /* display:none; */
+    display:none;
 
 }
 
 #topbar{
     background-color: #303E47;
     border-bottom: 5px solid #CFB53B;
-    display:none;
+    
+    /* display:none; */
 }
 
 a.nav-link{
@@ -56,5 +57,10 @@ article{
 .btn{
     background-color: #CFB53B;
     border: 2px solid #CFB53B;
+    margin: 10px;
 }
 
+.navbar-toggler-icon{
+    background-color: #CFB53B;
+
+}
