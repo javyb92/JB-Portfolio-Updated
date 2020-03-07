@@ -29,7 +29,12 @@ h5{
 
 a{
     font-family: 'Tomorrow', sans-serif;
+    color:#303E47 ;
 
+}
+a:hover{
+    color:#303E47 ;
+    text-decoration: none;
 }
 
 a.nav-link{
