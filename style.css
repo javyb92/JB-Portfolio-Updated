@@ -7,8 +7,19 @@ body{
 
 }
 
+.javier{
+
+    border: 2px solid #CFB53B;
+    margin: 10px;
+
+}
+
 h5{
     font-family: 'Tomorrow', sans-serif;
+}
+
+b{
+    color: #CFB53B;
 }
 
 #sidenav{
